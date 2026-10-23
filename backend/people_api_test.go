@@ -9,22 +9,6 @@ import (
 	"google.golang.org/api/people/v1"
 )
 
-func TestListGmail(t *testing.T) {
-	username := "caseych@caseyandgary.com"
-	LabelList := ListLabels(username)
-	//log.Printf("LabelList: %v", LabelList)
-	for {
-		for _, Label := range LabelList {
-			log.Printf("Filtering on Label: %v", Label.Name)
-			ListAndModifyGmail(username, Label.Id)
-		}
-	}
-
-	//ModifyMessageIdList := ListGmail(username, "SENT")
-	//log.Printf("ModifyMessageIdList: %v", len(ModifyMessageIdList))
-	//ModifyGmail(username, ModifyMessageIdList)
-}
-
 func TestUpdateContacts(t *testing.T) {
 	t.Skip("Not testing Contacts")
 	fileContent, err := os.ReadFile("update_contacts.json")
