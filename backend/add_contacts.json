@@ -1,0 +1,234 @@
+[
+    {
+        "addresses": [
+            {
+                "city": "city1",
+                "formattedType": "Work",
+                "formattedValue": "street1\ncity1, state1 zip1",
+                "metadata": {
+                    "primary": true,
+                    "source": {
+
+                        "type": "CONTACT"
+                    }
+                },
+                "postalCode": "zip1",
+                "region": "state1",
+                "streetAddress": "street1",
+                "type": "work"
+            },
+            {
+                "city": "city2",
+                "formattedType": "Home",
+                "formattedValue": "street2\ncity2, state2 zip2",
+                "metadata": {
+                    "source": {
+
+                        "type": "CONTACT"
+                    }
+                },
+                "postalCode": "zip2",
+                "region": "state2",
+                "streetAddress": "street2",
+                "type": "home"
+            }
+        ],
+        "biographies": [
+            {
+                "contentType": "TEXT_PLAIN",
+                "metadata": {
+                    "primary": true,
+                    "source": {
+
+                        "type": "CONTACT"
+                    }
+                },
+                "value": "notes"
+            }
+        ],
+        "emailAddresses": [
+            {
+                "formattedType": "Work",
+                "metadata": {
+                    "primary": true,
+                    "source": {
+
+                        "type": "CONTACT"
+                    }
+                },
+                "type": "work",
+                "value": "primaryemail"
+            },
+            {
+                "formattedType": "Home",
+                "metadata": {
+                    "source": {
+
+                        "type": "CONTACT"
+                    }
+                },
+                "type": "home",
+                "value": "secondaryemail"
+            }
+        ],
+        "etag": "%Eg4BAgUJCwwQFi43PT4/QBoEAQIFByIMcG5ma0hqWGx1Mkk9",
+        "names": [
+            {
+                "displayName": "Example Person",
+                "displayNameLastFirst": "Person, Example",
+                "familyName": "Person",
+                "givenName": "Example",
+                "metadata": {
+                    "primary": true,
+                    "source": {
+
+                        "type": "CONTACT"
+                    },
+                    "sourcePrimary": true
+                },
+                "unstructuredName": "Example Person"
+            }
+        ],
+        "organizations": [
+            {
+                "formattedType": "Work",
+                "metadata": {
+                    "primary": true,
+                    "source": {
+
+                        "type": "CONTACT"
+                    }
+                },
+                "name": "Company",
+                "title": "Job Title",
+                "type": "work"
+            }
+        ],
+        "phoneNumbers": [
+            {
+                "formattedType": "Pager",
+                "metadata": {
+                    "primary": true,
+                    "source": {
+
+                        "type": "CONTACT"
+                    }
+                },
+                "type": "pager",
+                "value": "pager1"
+            },
+            {
+                "formattedType": "Pager",
+                "metadata": {
+                    "source": {
+
+                        "type": "CONTACT"
+                    }
+                },
+                "type": "pager",
+                "value": "pager2"
+            },
+            {
+                "formattedType": "Work",
+                "metadata": {
+                    "source": {
+
+                        "type": "CONTACT"
+                    }
+                },
+                "type": "work",
+                "value": "work1"
+            },
+            {
+                "formattedType": "Work",
+                "metadata": {
+                    "source": {
+
+                        "type": "CONTACT"
+                    }
+                },
+                "type": "work",
+                "value": "work2"
+            },
+            {
+                "formattedType": "Mobile",
+                "metadata": {
+                    "source": {
+
+                        "type": "CONTACT"
+                    }
+                },
+                "type": "mobile",
+                "value": "mobile1"
+            },
+            {
+                "formattedType": "Mobile",
+                "metadata": {
+                    "source": {
+
+                        "type": "CONTACT"
+                    }
+                },
+                "type": "mobile",
+                "value": "mobile2"
+            },
+            {
+                "formattedType": "Home Fax",
+                "metadata": {
+                    "source": {
+
+                        "type": "CONTACT"
+                    }
+                },
+                "type": "homeFax",
+                "value": "fax1"
+            },
+            {
+                "formattedType": "Home Fax",
+                "metadata": {
+                    "source": {
+
+                        "type": "CONTACT"
+                    }
+                },
+                "type": "homeFax",
+                "value": "fax2"
+            },
+            {
+                "formattedType": "Home",
+                "metadata": {
+                    "source": {
+
+                        "type": "CONTACT"
+                    }
+                },
+                "type": "home",
+                "value": "home1"
+            },
+            {
+                "formattedType": "Home",
+                "metadata": {
+                    "source": {
+
+                        "type": "CONTACT"
+                    }
+                },
+                "type": "home",
+                "value": "home2"
+            }
+        ],
+        "userDefined": [
+            {
+                "key": "ldap",
+                "metadata": {
+                    "primary": true,
+                    "source": {
+
+                        "type": "CONTACT"
+                    }
+                },
+                "value": "sync"
+            }
+        ]
+    }
+]

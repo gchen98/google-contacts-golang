@@ -1,0 +1,14 @@
+[Unit]
+Description=Google Contacts Microservice
+After=network.target
+
+[Service]
+Type=simple
+User=garyc
+WorkingDirectory=/home/garyc/code/google-contacts/contacts_go
+ExecStart=/home/garyc/code/google-contacts/contacts_go/contacts_go
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
